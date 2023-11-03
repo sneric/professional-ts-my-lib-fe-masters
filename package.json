@@ -1,0 +1,22 @@
+{
+  "name": "my-lib",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build --watch --preserveWatchOutput",
+    "lint": "eslint src --ext js,ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.2.2"
+  },
+  "volta": {
+    "node": "20.9.0",
+    "yarn": "4.0.1"
+  }
+}
