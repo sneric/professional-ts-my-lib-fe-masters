@@ -40,3 +40,15 @@ export function sum2(a: number, b: number): number {
   const sum = a + b;
   return sum;
 }
+
+/**
+ * 
+ * @param a  - first number
+ * @param b - second number 
+ * 
+ * @public
+ */
+
+export function subtract(a: number, b: number): number {
+  return a - b;
+}
